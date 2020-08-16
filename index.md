@@ -142,7 +142,13 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 ## Demos
 
-For demos videos, please contact us at taimur.hassan@ku.ac.ae
+1. [Cascaded Structure Tensor Framework (GDXray)](https://drive.google.com/file/d/1RiqPTJoWTHcuQV-e9aNAPWpSutNfWnCi/view?usp=sharing)
+
+2. [Cascaded Structure Tensor Framework (SIXray)](https://drive.google.com/file/d/1-1ncm_aPhcBXF_4mGsuDvdFZTmUL81oW/view?usp=sharing)
+
+3. [Baggage Threat Detection via Incremental Learning (GDXray)](https://drive.google.com/file/d/1eM9PJd1dT4pH7UmMupu5ndQ0J_GlNvyc/view?usp=sharing)
+
+4. [Incremental Instance Segmentation for Recognizing Baggage Threats (GDXray)](https://drive.google.com/file/d/1N7Es59_IA9SXBNhk_Oo-LuyDzphaGKvB/view?usp=sharing)
 
 ## Publications
 
@@ -169,3 +175,7 @@ For demos videos, please contact us at taimur.hassan@ku.ac.ae
 4. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion", Submitted in Asian Conference on Computer Vision (ACCV), July 2020. 
 
 5. Hina Raja, Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression", Submitted in IEEE Transactions on Biomedical Engineering, June 2020. 
+
+## Contact Information
+
+For any information and queries, please contact us at: taimur.hassan@ku.ac.ae
