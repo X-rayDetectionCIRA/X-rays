@@ -63,3 +63,17 @@ Figure 4: Block Diagram of the Proposed Trainable Tensor Driven Instance Segment
 <b> Publications </b>
 
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion", Submitted in Asian Conference on Computer Vision (ACCV), July 2020. 
+
+<b>Tensor Pooling Driven Instance Segmentation</b>
+
+Screening baggage to identify potential threats is a difficult task even from expert security staff. Towards this end, researchers have developed autonomous systems capable of screening suspicious items from the X-ray scans. However, these frameworks are limited towards detecting baggage threats subject to high clutter, concealment and extreme occlusion. Here, we present a novel instance segmentation framework that analyzes the predominant orientations of the contraband items at multiple scales and utilizes them for recognizing baggage threats in a high cluttered scenario. The block diagram of the proposed framework is shown in Figure 5. At first, the input scan is passed to the tensor pooling module which generates the multi-scale tensor containing the contours of the baggage items. Afterward, the generated tensor is passed to the asymmetric encoder-decoder backbone that segments and recognize the contours of the contraband item while suppressing the rest of the baggage content. For each detected contour, the corresponding bounding box and mask is generated (using minimum bounding rectangle and inward interpolation techniques) to localize the detected contraband items. 
+
+![Trainable Tensor Block Diagram](/images/Picture1.png) 
+Figure 5: Block Diagram of the Proposed Tensor Pooling Driven Instance Segmentation Framework 
+
+The proposed framework has been thoroughly validated on the three publicly available large-scale baggage X-ray datasets, namely, GDXray, SIXray, and the OPIXray, achieving the mean average precision score of 0.8748, 0.7866, and 0.7503, respectively.
+
+<b> Publications </b>
+
+1. Taimur Hassan, Bilal Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Tensor Pooling Driven Instance Segmentation for Baggage Threat Recognition Under Extreme Occlusion", To be submitted in IEEE Transactions on Multimedia, August 2020. 
+
