@@ -22,7 +22,7 @@ Figure 1: Block Diagram of the CST Framework
 
 Moreover, CST has been thoroughly evaluated on two publicly available datasets, namely, GDXray and SIXray, containing a cumulative of 1,067,381 grayscale and colored X-ray scans. In addition to this, CST framework outperforms the state-of-the-art solutions by achieving the mean average precision score of 0.9343 on GDXray and 0.9595 on SIXray for recognizing the highly cluttered and overlapping suspicious items.  
 
-<b> Publications </b>
+<b> Dissemination </b>
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Cascaded Structure Tensor Framework for Robust Identification of Heavily Occluded Baggage Items from X-ray Scans", Submitted in IEEE Transactions on Image Processing, May 2020. [Paper](https://arxiv.org/abs/2004.06780), Source Code (To be Released Soon)
 
 2. Taimur Hassan, Meriem Bettayeb, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Detecting Prohibited Items in X-ray Images: A Contour Proposal Learning Approach", Accepted in 27th IEEE International Conference on Image Processing (ICIP), May 2020. [URL](https://cmsworkshops.com/ICIP2020/Papers/ViewPaper.asp?PaperNum=2238)
@@ -37,7 +37,7 @@ Figure 2: Block Diagram of the Proposed Regression Based Incremental Instance Se
 
 First, the model E<sub>1</sub> is trained for semantic segmentation, i.e to extract different isolated and overlapped objects (e.g. a knife overlaid on the gun). To differentiate between overlapped instances of the same item (e.g. a knife on top of another knife), we incrementally update E<sub>1</sub> in each iteration by adding new item instance classes (given small set of training examples) such that a model trained in j<sup>th</sup> iteration model E<sub>j</sub> can recognize up to ‘j’ instances of each item. In the testing phase, the input scan is first fed to the trained E<sub>1</sub> model to obtain masks of the different detected items (isolated and overlapped). The corresponding patches in the original scan are passed into the regressor to determine the maximum number, k, of overlapped instances in the scan. The number k is used to select the appropriate instance segmentation model (E<sub>k</sub>).
 
-<b>Publications</b>
+<b>Dissemination</b>
 
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. 
 
@@ -49,7 +49,7 @@ In the previous approach, the regressor model selects the accurate instance of t
 ![Instance Segmentation Block Diagram](/images/Figure3.jpg) 
 Figure 3: Block Diagram of the Proposed Incremental Learning Driven Instance Segmentation Framework 
 
-<b> Publications </b>
+<b> Dissemination </b>
 
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items", Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems, June 2020. 
 
@@ -60,7 +60,7 @@ Here, we present a novel instance detection (and instance segmentation) approach
 ![Trainable Tensor Block Diagram](/images/Picture1.png) 
 Figure 4: Block Diagram of the Proposed Trainable Tensor Driven Instance Segmentation Framework 
 
-<b> Publications </b>
+<b> Dissemination </b>
 
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion", Submitted in Asian Conference on Computer Vision (ACCV), July 2020. 
 
@@ -73,7 +73,25 @@ Figure 5: Block Diagram of the Proposed Tensor Pooling Driven Instance Segmentat
 
 The proposed framework has been thoroughly validated on the three publicly available large-scale baggage X-ray datasets, namely, GDXray, SIXray, and the OPIXray, achieving the mean average precision score of 0.8748, 0.7866, and 0.7503, respectively.
 
-<b> Publications </b>
+<b> Dissemination </b>
 
 1. Taimur Hassan, Bilal Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Tensor Pooling Driven Instance Segmentation for Baggage Threat Recognition Under Extreme Occlusion", To be submitted in IEEE Transactions on Multimedia, August 2020. 
 
+## Applicability of Proposed Frameworks in Other Domains
+
+While the prime emphasis of the developed approaches is for recognizing the baggage threats under extreme occlusion. Nevertheless, they are equally applicable to other domains as well. Here, we have applied the developed frameworks for solving medical imaging problems as discussed below:
+
+<b>RAG-FW: A Hybrid Convolutional Framework for Diagnosing and Grading Retinopathy</b>
+
+The identification of retinal lesions plays a vital role in accurately classifying and grading retinopathy. Many researchers have presented studies on optical coherence tomography (OCT) based retinal image analysis over the past. However, to the best of our knowledge, there is no framework yet available that can extract retinal lesions from multi-vendor OCT scans and utilize them for the intuitive severity grading of the human retina. To cater this lack, we propose a deep retinal analysis and grading framework (RAG-FW). RAG-FW is a hybrid convolutional framework that extracts multiple retinal lesions from OCT scans and utilizes them for lesion-influenced grading of retinopathy as per the clinical standards. RAG-FW has been rigorously tested on 43,613 scans from five highly complex publicly available datasets, containing multi-vendor scans, where it achieved the mean intersection-over-union score of 0.8055 for extracting the retinal lesions and the accuracy of 98.70% for the correct severity grading of retinopathy.
+
+![Trainable Tensor Block Diagram](/images/Picture3.png) 
+Figure 5: Block Diagram of the Proposed RAG-FW Framework
+
+<b> Dissemination </b>
+
+1. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, Muhammad Noman Nazir, "RAG-FW: A hybrid convolutional framework for the automated extraction of retinal lesions and lesion-influenced grading of human retinal pathology", IEEE Journal of Biomedical and Health Informatics, March 2020. [Paper](https://ieeexplore.ieee.org/document/9049083), [Source Code](http://biomisa.org/index.php/downloads/)
+
+2. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. [Paper](https://www.sciencedirect.com/science/article/pii/S2352340920301761)
+
+3. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Exploiting the Transferability of Deep Learning Systems Across Multi-modal Retinal Scans for Extracting Retinopathy Lesions", Accepted in 20th IEEE International Conference on BioInformatics And BioEngineering, August 2020 [Paper](https://arxiv.org/abs/2006.02662), [Source Code](http://biomisa.org/index.php/downloads/) 
