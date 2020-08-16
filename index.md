@@ -23,16 +23,34 @@ Figure 1: Block Diagram of the CST Framework
 Moreover, CST has been thoroughly evaluated on two publicly available datasets, namely, GDXray and SIXray, containing a cumulative of 1,067,381 grayscale and colored X-ray scans. In addition to this, CST framework outperforms the state-of-the-art solutions by achieving the mean average precision score of 0.9343 on GDXray and 0.9595 on SIXray for recognizing the highly cluttered and overlapping suspicious items.  
 
 <b> Publications </b>
-1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Cascaded Structure Tensor Framework for Robust Identification of Heavily Occluded Baggage Items from X-ray Scans", Submitted in IEEE Transactions on Image Processing, 2020. [Paper](https://arxiv.org/abs/2004.06780), Source Code (To be Released Soon)
+1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Cascaded Structure Tensor Framework for Robust Identification of Heavily Occluded Baggage Items from X-ray Scans", Submitted in IEEE Transactions on Image Processing, May 2020. [Paper](https://arxiv.org/abs/2004.06780), Source Code (To be Released Soon)
 
-2. Taimur Hassan, Meriem Bettayeb, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Detecting Prohibited Items in X-ray Images: A Contour Proposal Learning Approach", Accepted in 27th IEEE International Conference on Image Processing (ICIP), 2020. [URL](https://cmsworkshops.com/ICIP2020/Papers/ViewPaper.asp?PaperNum=2238)
+2. Taimur Hassan, Meriem Bettayeb, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Detecting Prohibited Items in X-ray Images: A Contour Proposal Learning Approach", Accepted in 27th IEEE International Conference on Image Processing (ICIP), May 2020. [URL](https://cmsworkshops.com/ICIP2020/Papers/ViewPaper.asp?PaperNum=2238)
 
-<b>Instance Segmentation via Incremental and Regression Learning</b>
+<b>Incremental Instance Segmentation via Regression</b>
 
 Many researchers have developed autonomous baggage screening systems by employing upon state-of-the-art object detectors. However, these frameworks are inherently limited towards recognizing extremely cluttered and occluded items (since they are based on region-based detection schemes). Semantic segmentation networks, due to their pixel-wise recognition ability, can identify baggage threats even in extreme clutter. However, semantic segmentation network cannot differentiate between different instances of the same item (e.g. a gun overlapped on top of another gun). Through postprocessing steps like Connected Component Analysis, isolated instances of the same items generated through semantic segmentation can be recognized. However, for occluded instances, it outputs a single blob. To cater this, we propose a novel strategy whereby we modify the existing encoder-decoder, scene parsing and fully convolutional networks designed for semantic segmentation to perform instance-aware segmentation using incremental learning and regression (as shown in Figure 2).
 
 
-![Instance Segmentation Block Diagram](/images/block.jpg) 
-Figure 2: Block Diagram of the Proposed Instance Segmentation Framework Driven Through Incremental Learning and Regression
+![Regression Instance Segmentation Block Diagram](/images/block.jpg) 
+Figure 2: Block Diagram of the Proposed Regression Based Incremental Instance Segmentation Framework 
 
 First, the model E<sub>1</sub> is trained for semantic segmentation, i.e to extract different isolated and overlapped objects (e.g. a knife overlaid on the gun). To differentiate between overlapped instances of the same item (e.g. a knife on top of another knife), we incrementally update E<sub>1</sub> in each iteration by adding new item instance classes (given small set of training examples) such that a model trained in j<sup>th</sup> iteration model E<sub>j</sub> can recognize up to ‘j’ instances of each item. In the testing phase, the input scan is first fed to the trained E<sub>1</sub> model to obtain masks of the different detected items (isolated and overlapped). The corresponding patches in the original scan are passed into the regressor to determine the maximum number, k, of overlapped instances in the scan. The number k is used to select the appropriate instance segmentation model (E<sub>k</sub>).
+
+<b>Publications</b>
+
+1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. 
+
+
+<b>Incremental Learning Driven Instance Segmentation</b>
+
+In the previous approach, the regressor model selects the accurate instance of the encoder-decoder model for instance segmentation. However, the use of the regression model is an additional overhead within the complete framework which can be easily avoided. Here, we propose a new instance segmentation approach in which we incrementally evolve the conventional encoder-decoder, scene parsing and fully convolutional networks to perform instance-aware segmentation based upon Bayesian inference. At each iteration, the network learns new classes of the item instances while simultaneously retaining its previously acquired knowledge based upon the proposed incremental learning loss function, which penalizes the network (in each iteration) to learn the mutual relationship and inter-dependencies between different knowledge representations through Bayes Rule. The block diagram of the incremental learning driven instance segmentation is shown in Figure 3.
+
+![Instance Segmentation Block Diagram](/images/Figure3.jpg) 
+Figure 3: Block Diagram of the Proposed Incremental Learning Driven Instance Segmentation Framework 
+
+<b> Publications </b>
+
+1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items", Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems, June 2020. 
+
+<b>Tensor Pooling Driven Instance Segmentation Framework</b>
