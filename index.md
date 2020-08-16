@@ -146,7 +146,7 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 2. [Cascaded Structure Tensor Framework (SIXray)](https://drive.google.com/file/d/1-1ncm_aPhcBXF_4mGsuDvdFZTmUL81oW/view?usp=sharing)
 
-3. [Baggage Threat Detection via Incremental Learning (GDXray)](https://drive.google.com/file/d/1eM9PJd1dT4pH7UmMupu5ndQ0J_GlNvyc/view?usp=sharing)
+3. [Incremental Object Detection for Recognizing Baggage Threats(GDXray)](https://drive.google.com/file/d/1eM9PJd1dT4pH7UmMupu5ndQ0J_GlNvyc/view?usp=sharing)
 
 4. [Incremental Instance Segmentation for Recognizing Baggage Threats (GDXray)](https://drive.google.com/file/d/1N7Es59_IA9SXBNhk_Oo-LuyDzphaGKvB/view?usp=sharing)
 
@@ -178,4 +178,4 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 ## Contact Information
 
-For any information and queries, please contact us at: taimur.hassan@ku.ac.ae
+For any information, please contact us at: taimur.hassan@ku.ac.ae
