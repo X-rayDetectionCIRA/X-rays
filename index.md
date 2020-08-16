@@ -144,13 +144,15 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 <b>Accepted/ Published</b>
 
-1. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, Muhammad Noman Nazir, "RAG-FW: A hybrid convolutional framework for the automated extraction of retinal lesions and lesion-influenced grading of human retinal pathology", IEEE Journal of Biomedical and Health Informatics, March 2020. 
+1. Taimur Hassan, Meriem Bettayeb, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Detecting Prohibited Items in X-ray Images: A Contour Proposal Learning Approach", Accepted in 27th IEEE International Conference on Image Processing (ICIP), May 2020.
 
-2. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. 
+2. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, Muhammad Noman Nazir, "RAG-FW: A hybrid convolutional framework for the automated extraction of retinal lesions and lesion-influenced grading of human retinal pathology", IEEE Journal of Biomedical and Health Informatics, March 2020. 
 
-3. Taimur Hassan, Muhammad Usman Akram, Imran Basit, "Analysis of optical coherence tomography images using deep convolutional neural network for maculopathy grading", Diabetes and Retinopathy, May 2020.
+3. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. 
 
-4. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Exploiting the Transferability of Deep Learning Systems Across Multi-modal Retinal Scans for Extracting Retinopathy Lesions", Accepted in 20th IEEE International Conference on BioInformatics And BioEngineering (BIBE), August 2020.
+4. Taimur Hassan, Muhammad Usman Akram, Imran Basit, "Analysis of optical coherence tomography images using deep convolutional neural network for maculopathy grading", Diabetes and Retinopathy, May 2020.
+
+5. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Exploiting the Transferability of Deep Learning Systems Across Multi-modal Retinal Scans for Extracting Retinopathy Lesions", Accepted in 20th IEEE International Conference on BioInformatics And BioEngineering (BIBE), August 2020.
 
 <b>Under Review</b>
 
