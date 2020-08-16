@@ -85,7 +85,7 @@ While the prime emphasis of the developed approaches is for recognizing the bagg
 
 The identification of retinal lesions plays a vital role in accurately classifying and grading retinopathy. Many researchers have presented studies on optical coherence tomography (OCT) based retinal image analysis over the past. However, to the best of our knowledge, there is no framework yet available that can extract retinal lesions from multi-vendor OCT scans and utilize them for the intuitive severity grading of the human retina. To cater this lack, we propose a deep retinal analysis and grading framework (RAG-FW). RAG-FW is a hybrid convolutional framework that extracts multiple retinal lesions from OCT scans and utilizes them for lesion-influenced grading of retinopathy as per the clinical standards. RAG-FW has been rigorously tested on 43,613 scans from five highly complex publicly available datasets, containing multi-vendor scans, where it achieved the mean intersection-over-union score of 0.8055 for extracting the retinal lesions and the accuracy of 98.70% for the correct severity grading of retinopathy.
 
-![Trainable Tensor Block Diagram](/images/Picture3.png) 
+![RAG-FW](/images/Picture3.PNG) 
 Figure 5: Block Diagram of the Proposed RAG-FW Framework
 
 <b> Dissemination </b>
@@ -94,4 +94,17 @@ Figure 5: Block Diagram of the Proposed RAG-FW Framework
 
 2. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. [Paper](https://www.sciencedirect.com/science/article/pii/S2352340920301761)
 
-3. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Exploiting the Transferability of Deep Learning Systems Across Multi-modal Retinal Scans for Extracting Retinopathy Lesions", Accepted in 20th IEEE International Conference on BioInformatics And BioEngineering, August 2020 [Paper](https://arxiv.org/abs/2006.02662), [Source Code](http://biomisa.org/index.php/downloads/) 
+3. Taimur Hassan, Muhammad Usman Akram, Imran Basit, "Analysis of optical coherence tomography images using deep convolutional neural network for maculopathy grading", Diabetes and Retinopathy, May 2020.
+
+4. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Exploiting the Transferability of Deep Learning Systems Across Multi-modal Retinal Scans for Extracting Retinopathy Lesions", Accepted in 20th IEEE International Conference on BioInformatics And BioEngineering (BIBE), August 2020 [Paper](https://arxiv.org/abs/2006.02662), [Source Code](http://biomisa.org/index.php/downloads/) 
+
+<b>Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression</b>
+
+Glaucoma is the second leading cause of irreversible blindness worldwide. With the advent of spectral-domain optical coherence tomography (SD-OCT), glaucomatous progression can be easily monitored by analyzing the degradation of retinal ganglion cells (RGCs). Many researchers have worked on diagnosing glaucoma by measuring the cup-to-disc ratio from the fused fundus and SD-OCT imagery. However, to the best of our knowledge, there is no literature available which robustly measures the pathological variations of ganglion cell bodies, dendrites, and axons within ganglion cell complex (GCC) region to grade the severity of glaucoma. The paper presents a novel strategy encompassing a hybrid convolutional network that extracts the retinal nerve fiber layer (RNFL), ganglion cell with the inner plexiform layer (GC-IPL) and GCC regions, allowing thus a quantitative screening of glaucomatous subjects. Furthermore, the severity of glaucoma in screened cases is objectively graded by analyzing the RGC atrophy through RNFL, GC-IPL, and GCC thickness profiles. The proposed framework has been rigorously tested on publicly available Armed Forces Institute of Ophthalmology (AFIO) dataset (containing highly annotated optic nerve head SD-OCT scans), where it achieved the $F_1$ score of 0.9577 for diagnosing glaucoma, a mean dice coefficient score of 0.8697 for extracting the RGCs and an accuracy of 0.9117 for grading glaucomatous progression. Also, the performance of the proposed framework has been clinically verified with the markings of four expert ophthalmologists, achieving a statistically significant Pearson correlation coefficient of 0.9236.
+
+![RAG-FW](/images/Picture3.PNG) 
+Figure 5: Block Diagram of the Proposed Glaucomatous Grading Framework
+
+<b> Dissemination </b>
+
+1. Hina Raja, Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression", Revisions Submitted in IEEE Transactions on Biomedical Engineering, June 2020. 
