@@ -53,4 +53,13 @@ Figure 3: Block Diagram of the Proposed Incremental Learning Driven Instance Seg
 
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items", Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems, June 2020. 
 
-<b>Tensor Pooling Driven Instance Segmentation Framework</b>
+<b>Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion</b>
+
+Here, we present a novel instance detection (and instance segmentation) approach based on trainable structure tensor scheme to highlight the contours of the occluded and cluttered contraband items obtained from multiple predominant orientations w.r.t the scan gradients. The block diagram of the proposed scheme is shown in Figure 4. First of all, the input scan is passed through the structure tensor module. Afterward, the resultant tensor (showcasing the transitional patterns of the baggage content) is passed through the encoder-decoder network that only retains the contours of the threatening items while suppressing the rest of the baggage content. Apart from this, the backbone encoder-decoder outputs the contours of the suspicious items and from each item contour, the corresponding bounding box and the mask are generated highlighting the detected item. Here, it should be noticed that the use of the encoder-decoder backbone within the proposed framework not only aids in extracting the contours of the contraband items while suppressing the unwanted boundaries. But it also helps in recognizing to which item they belong to. In addition to this, the proposed framework has been rigorously tested on four publicly available X-ray datasets where it outperforms the state-of-the-art frameworks in terms of mean average precision scores. Furthermore, to the best of our knowledge, it is the only framework that has been rigorously tested on combined grayscale and colored scans obtained from four different types of X-ray scanners.
+
+![Trainable Tensor Block Diagram](/images/Picture1.png) 
+Figure 4: Block Diagram of the Proposed Trainable Tensor Driven Instance Segmentation Framework 
+
+<b> Publications </b>
+
+1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion", Submitted in Asian Conference on Computer Vision (ACCV), July 2020. 
