@@ -28,11 +28,10 @@ Moreover, CST has been thoroughly evaluated on two publicly available datasets, 
 </p>
 
 <b> Dissemination </b>
-<p align="justify">
+
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Cascaded Structure Tensor Framework for Robust Identification of Heavily Occluded Baggage Items from X-ray Scans", Submitted in IEEE Transactions on Image Processing, May 2020. [Paper](https://arxiv.org/abs/2004.06780), Source Code (To be Released Soon)
 
 2. Taimur Hassan, Meriem Bettayeb, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Detecting Prohibited Items in X-ray Images: A Contour Proposal Learning Approach", Accepted in 27th IEEE International Conference on Image Processing (ICIP), May 2020. [URL](https://cmsworkshops.com/ICIP2020/Papers/ViewPaper.asp?PaperNum=2238)
-</p>
 
 <b>Incremental Instance Segmentation via Regression</b>
 
@@ -119,7 +118,6 @@ Figure 5: Block Diagram of the Proposed RAG-FW Framework
 
 <b> Dissemination </b>
 
-<p align="justify">
 1. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, Muhammad Noman Nazir, "RAG-FW: A hybrid convolutional framework for the automated extraction of retinal lesions and lesion-influenced grading of human retinal pathology", IEEE Journal of Biomedical and Health Informatics, March 2020. [Paper](https://ieeexplore.ieee.org/document/9049083), [Source Code](http://biomisa.org/index.php/downloads/)
 
 2. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. [Paper](https://www.sciencedirect.com/science/article/pii/S2352340920301761)
@@ -127,8 +125,6 @@ Figure 5: Block Diagram of the Proposed RAG-FW Framework
 3. Taimur Hassan, Muhammad Usman Akram, Imran Basit, "Analysis of optical coherence tomography images using deep convolutional neural network for maculopathy grading", Diabetes and Retinopathy, May 2020.
 
 4. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Exploiting the Transferability of Deep Learning Systems Across Multi-modal Retinal Scans for Extracting Retinopathy Lesions", Accepted in 20th IEEE International Conference on BioInformatics And BioEngineering (BIBE), August 2020 [Paper](https://arxiv.org/abs/2006.02662), [Source Code](http://biomisa.org/index.php/downloads/) 
-
-</p>
 
 <b>Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression</b>
 
