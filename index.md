@@ -107,4 +107,4 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 <b> Dissemination </b>
 
-1. Hina Raja, Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression", Revisions Submitted in IEEE Transactions on Biomedical Engineering, June 2020. 
+1. Hina Raja, Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression", Submitted in IEEE Transactions on Biomedical Engineering, June 2020. 
