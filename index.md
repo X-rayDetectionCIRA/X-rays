@@ -139,3 +139,27 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 <p align="justify">
 1. Hina Raja, Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression", Submitted in IEEE Transactions on Biomedical Engineering, June 2020. 
 </p>
+
+## Publications
+
+<b>Accepted/ Published</b>
+
+1. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, Muhammad Noman Nazir, "RAG-FW: A hybrid convolutional framework for the automated extraction of retinal lesions and lesion-influenced grading of human retinal pathology", IEEE Journal of Biomedical and Health Informatics, March 2020. 
+
+2. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. 
+
+3. Taimur Hassan, Muhammad Usman Akram, Imran Basit, "Analysis of optical coherence tomography images using deep convolutional neural network for maculopathy grading", Diabetes and Retinopathy, May 2020.
+
+4. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Exploiting the Transferability of Deep Learning Systems Across Multi-modal Retinal Scans for Extracting Retinopathy Lesions", Accepted in 20th IEEE International Conference on BioInformatics And BioEngineering (BIBE), August 2020.
+
+<b>Under Review</b>
+
+1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Cascaded Structure Tensor Framework for Robust Identification of Heavily Occluded Baggage Items from X-ray Scans", Submitted in IEEE Transactions on Image Processing, May 2020.
+
+3. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020.
+
+3. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items", Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems, June 2020. 
+
+4. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion", Submitted in Asian Conference on Computer Vision (ACCV), July 2020. 
+
+5. Hina Raja, Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression", Submitted in IEEE Transactions on Biomedical Engineering, June 2020. 
