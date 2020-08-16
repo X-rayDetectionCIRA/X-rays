@@ -48,9 +48,7 @@ First, the model E<sub>1</sub> is trained for semantic segmentation, i.e to extr
 
 <b>Dissemination</b>
 
-<p align="justify">
-1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. 
-</p>
+1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. [Source Code](https://github.com/taimurhassan/inc-instance-seg)
 
 <b>Incremental Learning Driven Instance Segmentation</b>
 
