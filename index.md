@@ -52,7 +52,7 @@ Figure 5: Block Diagram of the Proposed RAG-FW Framework
 
 1. Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, Muhammad Noman Nazir, "RAG-FW: A hybrid convolutional framework for the automated extraction of retinal lesions and lesion-influenced grading of human retinal pathology", IEEE Journal of Biomedical and Health Informatics, March 2020. [Paper](https://ieeexplore.ieee.org/document/9049083), [Source Code](http://biomisa.org/index.php/downloads/)
 
-2. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. [Paper](https://www.sciencedirect.com/science/article/pii/S2352340920301761)
+2. Muhammad Usman Akram, Shahzad Akhbar, Taimur Hassan, Sajid Gul Khawaja, Ubaidullah Yasin, Imran Basit, "Data on fundus images for vessels segmentation, detection of hypertensive retinopathy, diabetic retinopathy and papilledema", Elsevier Data in Brief, February 2020. [Paper](https://www.sciencedirect.com/science/article/pii/S2352340920301761), [Dataset](https://data.mendeley.com/datasets/3csr652p9y/2)
 
 3. Taimur Hassan, Muhammad Usman Akram, Imran Basit, "Analysis of optical coherence tomography images using deep convolutional neural network for maculopathy grading", Diabetes and Retinopathy, May 2020.
 
@@ -80,7 +80,7 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 2. [Cascaded Structure Tensor Framework (SIXray)](https://drive.google.com/file/d/1-1ncm_aPhcBXF_4mGsuDvdFZTmUL81oW/view?usp=sharing)
 
-For more demos, please visit this [link](https://github.com/taimurhassan/X-rays/tree/master/demos)
+For more demos, please visit this [link](https://github.com/taimurhassan/X-rays/tree/master/demos). 
 
 ## Publications
 
