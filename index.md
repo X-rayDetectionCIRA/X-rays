@@ -27,8 +27,12 @@ Moreover, CST has been thoroughly evaluated on two publicly available datasets, 
 
 2. Taimur Hassan, Meriem Bettayeb, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Detecting Prohibited Items in X-ray Images: A Contour Proposal Learning Approach", Accepted in 27th IEEE International Conference on Image Processing (ICIP), 2020. [URL](https://cmsworkshops.com/ICIP2020/Papers/ViewPaper.asp?PaperNum=2238)
 
-for Recognizing Baggage Threats Under Extreme Occlusion
 <b>Instance Segmentation via Incremental and Regression Learning</b>
 
 Many researchers have developed autonomous baggage screening systems by employing upon state-of-the-art object detectors. However, these frameworks are inherently limited towards recognizing extremely cluttered and occluded items (since they are based on region-based detection schemes). Semantic segmentation networks, due to their pixel-wise recognition ability, can identify baggage threats even in extreme clutter. However, semantic segmentation network cannot differentiate between different instances of the same item (e.g. a gun overlapped on top of another gun). Through postprocessing steps like Connected Component Analysis, isolated instances of the same items generated through semantic segmentation can be recognized. However, for occluded instances, it outputs a single blob. To cater this, we propose a novel strategy whereby we modify the existing encoder-decoder, scene parsing and fully convolutional networks designed for semantic segmentation to perform instance-aware segmentation using incremental learning and regression (as shown in Figure 2).
 
+
+![Instance Segmentation Block Diagram](/images/block.jpg) 
+Figure 2: Block Diagram of the Proposed Instance Segmentation Framework Driven Through Incremental Learning and Regression
+
+First, the model E<sub>1</sub> is trained for semantic segmentation, i.e to extract different isolated and overlapped objects (e.g. a knife overlaid on the gun). To differentiate between overlapped instances of the same item (e.g. a knife on top of another knife), we incrementally update E<sub>1</sub> in each iteration by adding new item instance classes (given small set of training examples) such that a model trained in j<sup>th</sup> iteration model E<sub>j</sub> can recognize up to ‘j’ instances of each item. In the testing phase, the input scan is first fed to the trained E<sub>1</sub> model to obtain masks of the different detected items (isolated and overlapped). The corresponding patches in the original scan are passed into the regressor to determine the maximum number, k, of overlapped instances in the scan. The number k is used to select the appropriate instance segmentation model (E<sub>k</sub>).
