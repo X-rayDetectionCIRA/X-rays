@@ -33,72 +33,6 @@ Moreover, CST has been thoroughly evaluated on two publicly available datasets, 
 
 2. Taimur Hassan, Meriem Bettayeb, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Detecting Prohibited Items in X-ray Images: A Contour Proposal Learning Approach", Accepted in 27th IEEE International Conference on Image Processing (ICIP), May 2020. [URL](https://cmsworkshops.com/ICIP2020/Papers/ViewPaper.asp?PaperNum=2238)
 
-<b>2. Incremental Instance Segmentation via Regression</b>
-
-<p align="justify">
-Many researchers have developed autonomous baggage screening systems by employing upon state-of-the-art object detectors. However, these frameworks are inherently limited towards recognizing extremely cluttered and occluded items (since they are based on region-based detection schemes). Semantic segmentation networks, due to their pixel-wise recognition ability, can identify baggage threats even in extreme clutter. However, semantic segmentation network cannot differentiate between different instances of the same item (e.g. a gun overlapped on top of another gun). Through postprocessing steps like Connected Component Analysis, isolated instances of the same items generated through semantic segmentation can be recognized. However, for occluded instances, it outputs a single blob. To cater this, we propose a novel strategy whereby we modify the existing encoder-decoder, scene parsing and fully convolutional networks designed for semantic segmentation to perform instance-aware segmentation using incremental learning and regression (as shown in Figure 2).
-</p>
-
-![Regression Instance Segmentation Block Diagram](/images/block.jpg) 
-Figure 2: Block Diagram of the Proposed Regression Based Incremental Instance Segmentation Framework 
-
-<p align="justify">
-First, the model E<sub>1</sub> is trained for semantic segmentation, i.e to extract different isolated and overlapped objects (e.g. a knife overlaid on the gun). To differentiate between overlapped instances of the same item (e.g. a knife on top of another knife), we incrementally update E<sub>1</sub> in each iteration by adding new item instance classes (given small set of training examples) such that a model trained in j<sup>th</sup> iteration model E<sub>j</sub> can recognize up to ‘j’ instances of each item. In the testing phase, the input scan is first fed to the trained E<sub>1</sub> model to obtain masks of the different detected items (isolated and overlapped). The corresponding patches in the original scan are passed into the regressor to determine the maximum number, k, of overlapped instances in the scan. The number k is used to select the appropriate instance segmentation model (E<sub>k</sub>).
-</p>
-
-<b>Dissemination</b>
-
-1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. [Source Code](https://github.com/taimurhassan/inc-instance-seg)
-
-<b>3. Incremental Learning Driven Instance Segmentation</b>
-
-<p align="justify">
-In the previous approach, the regressor model selects the accurate instance of the encoder-decoder model for instance segmentation. However, the use of the regression model is an additional overhead within the complete framework which can be easily avoided. Here, we propose a new instance segmentation approach in which we incrementally evolve the conventional encoder-decoder, scene parsing and fully convolutional networks to perform instance-aware segmentation based upon Bayesian inference. At each iteration, the network learns new classes of the item instances while simultaneously retaining its previously acquired knowledge based upon the proposed incremental learning loss function, which penalizes the network (in each iteration) to learn the mutual relationship and inter-dependencies between different knowledge representations through Bayes Rule. The block diagram of the incremental learning driven instance segmentation is shown in Figure 3.
-</p>
-
-![Instance Segmentation Block Diagram](/images/Figure3.jpg) 
-Figure 3: Block Diagram of the Proposed Incremental Learning Driven Instance Segmentation Framework 
-
-<b> Dissemination </b>
-
-<p align="justify">
-1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items", Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems, June 2020. 
-</p>
-
-<b>4. Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion</b>
-
-<p align="justify">
-Here, we present a novel instance detection (and instance segmentation) approach based on trainable structure tensor scheme to highlight the contours of the occluded and cluttered contraband items obtained from multiple predominant orientations w.r.t the scan gradients. The block diagram of the proposed scheme is shown in Figure 4. First of all, the input scan is passed through the structure tensor module. Afterward, the resultant tensor (showcasing the transitional patterns of the baggage content) is passed through the encoder-decoder network that only retains the contours of the threatening items while suppressing the rest of the baggage content. Apart from this, the backbone encoder-decoder outputs the contours of the suspicious items and from each item contour, the corresponding bounding box and the mask are generated highlighting the detected item. Here, it should be noticed that the use of the encoder-decoder backbone within the proposed framework not only aids in extracting the contours of the contraband items while suppressing the unwanted boundaries. But it also helps in recognizing to which item they belong to. In addition to this, the proposed framework has been rigorously tested on four publicly available X-ray datasets where it outperforms the state-of-the-art frameworks in terms of mean average precision scores. Furthermore, to the best of our knowledge, it is the only framework that has been rigorously tested on combined grayscale and colored scans obtained from four different types of X-ray scanners.
-</p>
-
-![Trainable Tensor Block Diagram](/images/Picture1.png) 
-Figure 4: Block Diagram of the Proposed Trainable Tensor Driven Instance Segmentation Framework 
-
-<b> Dissemination </b>
-
-<p align="justify">
-1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion", Submitted in Asian Conference on Computer Vision (ACCV), July 2020. 
-</p>
-
-<b>5. Tensor Pooling Driven Instance Segmentation</b>
-
-<p align="justify">
-Screening baggage to identify potential threats is a difficult task even from expert security staff. Towards this end, researchers have developed autonomous systems capable of screening suspicious items from the X-ray scans. However, these frameworks are limited towards detecting baggage threats subject to high clutter, concealment and extreme occlusion. Here, we present a novel instance segmentation framework that analyzes the predominant orientations of the contraband items at multiple scales and utilizes them for recognizing baggage threats in a high cluttered scenario. The block diagram of the proposed framework is shown in Figure 5. At first, the input scan is passed to the tensor pooling module which generates the multi-scale tensor containing the contours of the baggage items. Afterward, the generated tensor is passed to the asymmetric encoder-decoder backbone that segments and recognize the contours of the contraband item while suppressing the rest of the baggage content. For each detected contour, the corresponding bounding box and mask is generated (using minimum bounding rectangle and inward interpolation techniques) to localize the detected contraband items. 
-</p>
-
-![Trainable Tensor Block Diagram](/images/Picture2.png) 
-Figure 5: Block Diagram of the Proposed Tensor Pooling Driven Instance Segmentation Framework 
-
-<p align="justify">
-The proposed framework has been thoroughly validated on the three publicly available large-scale baggage X-ray datasets, namely, GDXray, SIXray, and the OPIXray, achieving the mean average precision score of 0.8748, 0.7866, and 0.7503, respectively.
-</p>
-
-<b> Dissemination </b>
-
-<p align="justify">
-1. Taimur Hassan, Bilal Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Tensor Pooling Driven Instance Segmentation for Baggage Threat Recognition Under Extreme Occlusion", To be submitted in IEEE Transactions on Multimedia, August 2020. 
-</p>
-
 ## Applicability of Proposed Frameworks in Other Domains
 
 <p align="justify">
@@ -146,8 +80,6 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 2. [Cascaded Structure Tensor Framework (SIXray)](https://drive.google.com/file/d/1-1ncm_aPhcBXF_4mGsuDvdFZTmUL81oW/view?usp=sharing)
 
-3. [Incremental Object Detection for Recognizing Baggage Threats (GDXray)](https://drive.google.com/file/d/1eM9PJd1dT4pH7UmMupu5ndQ0J_GlNvyc/view?usp=sharing)
-
 For more demos, please visit this [link](https://github.com/taimurhassan/X-rays/tree/master/demos)
 
 ## Publications
@@ -168,7 +100,7 @@ For more demos, please visit this [link](https://github.com/taimurhassan/X-rays/
   
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Cascaded Structure Tensor Framework for Robust Identification of Heavily Occluded Baggage Items from X-ray Scans", Submitted in IEEE Transactions on Image Processing, May 2020. [Paper](https://arxiv.org/abs/2004.06780)
 
-3. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. [Source Code](https://github.com/taimurhassan/inc-instance-seg)
+3. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. 
 
 3. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items", Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems, June 2020. 
 
