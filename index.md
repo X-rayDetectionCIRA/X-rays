@@ -8,8 +8,8 @@ Potential threats concealed within the baggage has become one of the prime secur
 3. Prof. Dr. Salman Khan (Mohamed bin Zayed University of Artificial Intelligence, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=M59O9lkAAAAJ)
 4. Dr. Samet Akcay (Durham University, United Kingdom) [Profile](https://scholar.google.com/citations?hl=en&user=SVpL2VMAAAAJ)
 5. Dr. Taimur Hassan (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=11mwy0YAAAAJ)
-6. Tayaba Abbasi (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=TlNyfb4AAAAJ)
-7. Muhammad Shafay (Khalifa University, United Arab Emirates)
+6. Engr. Tayaba Abbasi (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=TlNyfb4AAAAJ)
+7. Engr. Muhammad Shafay (Khalifa University, United Arab Emirates)
 
 ## Approaches
 
@@ -103,7 +103,7 @@ Figure 5: Block Diagram of the Proposed RAG-FW Framework
 Glaucoma is the second leading cause of irreversible blindness worldwide. With the advent of spectral-domain optical coherence tomography (SD-OCT), glaucomatous progression can be easily monitored by analyzing the degradation of retinal ganglion cells (RGCs). Many researchers have worked on diagnosing glaucoma by measuring the cup-to-disc ratio from the fused fundus and SD-OCT imagery. However, to the best of our knowledge, there is no literature available which robustly measures the pathological variations of ganglion cell bodies, dendrites, and axons within ganglion cell complex (GCC) region to grade the severity of glaucoma. The paper presents a novel strategy encompassing a hybrid convolutional network that extracts the retinal nerve fiber layer (RNFL), ganglion cell with the inner plexiform layer (GC-IPL) and GCC regions, allowing thus a quantitative screening of glaucomatous subjects. Furthermore, the severity of glaucoma in screened cases is objectively graded by analyzing the RGC atrophy through RNFL, GC-IPL, and GCC thickness profiles. The proposed framework has been rigorously tested on publicly available Armed Forces Institute of Ophthalmology (AFIO) dataset (containing highly annotated optic nerve head SD-OCT scans), where it achieved the $F_1$ score of 0.9577 for diagnosing glaucoma, a mean dice coefficient score of 0.8697 for extracting the RGCs and an accuracy of 0.9117 for grading glaucomatous progression. Also, the performance of the proposed framework has been clinically verified with the markings of four expert ophthalmologists, achieving a statistically significant Pearson correlation coefficient of 0.9236.
 
 ![RAG-FW](/images/Picture10.png) 
-Figure 5: Block Diagram of the Proposed Glaucomatous Grading Framework
+Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 <b> Dissemination </b>
 
