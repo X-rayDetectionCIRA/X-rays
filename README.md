@@ -1,4 +1,4 @@
-# Baggage Threat Detection Under Extreme Occlusion
+# Automated Threat Detection in X-ray Imagery for Advanced Security Applications
 
 ## Overview 
 <p align="justify">
