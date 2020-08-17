@@ -48,7 +48,7 @@ The identification of retinal lesions plays a vital role in accurately classifyi
 </p>
 
 ![RAG-FW](/images/Picture3.PNG) 
-Figure 5: Block Diagram of the Proposed RAG-FW Framework
+Figure 2: Block Diagram of the Proposed RAG-FW Framework
 
 <b> Dissemination </b>
 
@@ -68,7 +68,7 @@ Glaucoma is the second leading cause of irreversible blindness worldwide. With t
 </p>
 
 ![RAG-FW](/images/Picture10.png) 
-Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
+Figure 3: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 <b> Dissemination </b>
 
@@ -94,7 +94,7 @@ Figure 6: Block Diagram of the Proposed Glaucomatous Grading Framework
   
 1. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Cascaded Structure Tensor Framework for Robust Identification of Heavily Occluded Baggage Items from X-ray Scans", Submitted in IEEE Transactions on Image Processing, May 2020. [Paper](https://arxiv.org/abs/2004.06780)
 
-3. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. 
+2. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats", Submitted in IEEE Transactions on Circuits and Systems for Video Technology, August 2020. 
 
 3. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items", Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems, June 2020. 
 
