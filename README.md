@@ -105,4 +105,4 @@ Figure 3: Block Diagram of the Proposed Glaucomatous Grading Framework
 
 ## Acknowledgement
 
-This work is supported by a research fund from CIRA, Khalifa University Ref:CIRA-2019-047.
+This work is supported by a research fund from CIRA, Khalifa University Ref: CIRA-2019-047.
