@@ -6,13 +6,14 @@ Potential threats concealed within the baggage has become one of the prime secur
 </p>
 
 ## Team Members
-1. Prof. Dr. Mohammad Bennamoun (University of Western Australia, Australia) [Profile](https://scholar.google.com/citations?user=ylX5MEAAAAAJ&hl=en)
+1. Prof. Dr. Ernesto Damiani (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?user=aC7ZsHAAAAAJ&hl=en)
 2. Prof. Dr. Naoufel Werghi (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=G_2Xpm0AAAAJ)
-3. Prof. Dr. Salman Khan (Mohamed bin Zayed University of Artificial Intelligence, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=M59O9lkAAAAJ)
-4. Dr. Samet Akcay (Durham University, United Kingdom) [Profile](https://scholar.google.com/citations?hl=en&user=SVpL2VMAAAAJ)
-5. Dr. Taimur Hassan (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=11mwy0YAAAAJ)
-6. Engr. Tayaba Abbasi (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=TlNyfb4AAAAJ)
-7. Engr. Muhammad Shafay (Khalifa University, United Arab Emirates)
+3. Dr. Taimur Hassan (Khalifa University, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=11mwy0YAAAAJ)
+
+## External Collaborators
+1. Prof. Dr. Mohammad Bennamoun (University of Western Australia, Australia) [Profile](https://scholar.google.com/citations?user=ylX5MEAAAAAJ&hl=en)
+2. Prof. Dr. Salman Khan (Mohamed bin Zayed University of Artificial Intelligence, United Arab Emirates) [Profile](https://scholar.google.com/citations?hl=en&user=M59O9lkAAAAJ)
+3. Dr. Samet Akcay (Durham University, United Kingdom) [Profile](https://scholar.google.com/citations?hl=en&user=SVpL2VMAAAAJ)
 
 ## Approaches
 
