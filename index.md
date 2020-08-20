@@ -115,4 +115,4 @@ For any information, please contact us at: taimur.hassan@ku.ac.ae
 
 ## Acknowledgement
 
-This work is supported by a research fund from CIRA, Khalifa University Ref:CIRA-2019-047.
+This work is supported by a research fund from CIRA, Khalifa University Ref: CIRA-2019-047.
