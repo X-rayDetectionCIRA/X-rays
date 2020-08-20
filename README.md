@@ -102,3 +102,7 @@ Figure 3: Block Diagram of the Proposed Glaucomatous Grading Framework
 4. Taimur Hassan, Samet Akcay, Mohammed Bennamoun, Salman Khan, and Naoufel Werghi, "Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion", Submitted in Asian Conference on Computer Vision (ACCV), July 2020. 
 
 5. Hina Raja, Taimur Hassan, Muhammad Usman Akram, Naoufel Werghi, "Clinically Verified Hybrid Deep Learning System for Retinal Ganglion Cells Aware Grading of Glaucomatous Progression", Submitted in IEEE Transactions on Biomedical Engineering, June 2020. 
+
+## Acknowledgement
+
+This work is supported by a research fund from CIRA, Khalifa University Ref:CIRA-2019-047.
