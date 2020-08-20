@@ -112,3 +112,7 @@ For more demos, please visit this [link](https://github.com/taimurhassan/X-rays/
 ## Contact Information
 
 For any information, please contact us at: taimur.hassan@ku.ac.ae
+
+## Acknowledgement
+
+This work is supported by research fund from CIRA, Khalifa University Ref:CIRA-2019-047.
